@@ -1,0 +1,706 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+        <title>Osek</title>
+    </head>
+
+    <body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">Osek</h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for creators, inspirations, and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img src="img/logo.png">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="img/photo1676536007.jpeg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>ITCS-2005</ITCS-2005></h4>
+                        <p class="text-muted">@ACC</p>
+                    </div>
+                </a>
+
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+<!--                    <a class="menu-item">-->
+<!--                        <span><i class="uil uil-compass"></i></span>-->
+<!--                        <h3>Explore</h3>-->
+<!--                    </a>-->
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
+                        <h3>Notifications</h3>
+                        <div class="notification-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/photo1676531586%20(5).jpeg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Ayan Meirambek</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/photo1676531586%20(3).jpeg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Madi Zholaman</b> commented on your post
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/photo1676517981%20(9).jpeg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Erkezhan Ermekbaeva</b> and <b> 283 others</b> liked your post
+                                    <small class="text-muted">4 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/photo1676531586%20(8).jpeg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Kuat Tulegenov</b> commented on a post you are tagged in
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/photo1676517981%20(8).jpeg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Asiya Bagitzhankyzy</b> commented on a post you are tagged in
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/photo1676531586%20(6).jpeg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Sabit Berkinbaev</b> commented on your post
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notification" href="main/chat/chat.html">
+                        <span><i class="uil uil-envelope-alt"><small class="notification-count">6</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item" href="main/bookm/book.html">
+                        <span><i class="uil uil-bookmark"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+<!--                    <a class="menu-item">-->
+<!--                        <span><i class="uil uil-chart-line"></i></span>-->
+<!--                        <h3>Analytics</h3>-->
+<!--                    </a>-->
+                    <a class="menu-item" id="theme">
+                        <span><i class="uil uil-palette"></i></span>
+                        <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item" href="main/settings/index.html">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+                </div>
+<!--                <label for="create-post" class="btn btn-primary">Create Post</label>-->
+               <a href="login.html" > <label for="log-out" class="btn btn-primary">Log out</label>  </a>
+            </div>
+            <!-- END OF LEFT -->
+            <div class="middle">
+                <div class="stories">
+                    <div class="story" data-id="1">
+                        <div class="profile-photo">
+                            <img src="img/photo1676536059.jpeg" alt="">
+                        </div>
+                            <p class="name">Your Story</p>
+                    </div>
+                    <div class="story" data-id="2">
+                        <div class="profile-photo">
+                            <img src="img/photo1676531586%20(5).jpeg" alt="">
+                        </div>
+                        <p class="name">Ayan Meirambek</p>
+                    </div>
+                    <div class="story" data-id="3">
+                        <div class="profile-photo">
+                            <img src="img/photo1676518466.jpeg" alt="">
+                        </div>
+                        <p class="name">Sanzhar Bekbolat</p>
+                    </div>
+                    <div class="story" data-id="4">
+                        <div class="profile-photo">
+                            <img src="img/photo1676531586%20(6).jpeg" alt="">
+                        </div>
+                        <p class="name">Sabit Berkinbaev</p>
+                    </div>
+                    <div class="story" data-id="5">
+                        <div class="profile-photo">
+                            <img src="img/photo1676531586%20(7).jpeg" alt="">
+                        </div>
+                        <p class="name">Daniyar Onlan</p>
+                    </div>
+                    <div class="story" data-id="6">
+                        <div class="profile-photo">
+                            <img src="img/photo1676531586%20(3).jpeg" alt="">
+                        </div>
+                        <p class="name">Madi Zholaman</p>
+                    </div>
+                </div>
+
+
+                <form class="create-post" id="create-post-form">
+                    <div class="profile-photo">
+                        <img src="img/photo1676536007.jpeg">
+                    </div>
+                    <input type="text" placeholder="What's on your mind Sanzhar?" class="create-post-input">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+
+                <!-- FEEDS -->
+                <div id = "feeds" class="feeds">
+                    <!-- FEED 1 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/photo1676522153.jpeg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Magzhan Omarkhan</h3>
+                                    <small>Bakanas, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="img/photo1676518319%20(1).jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/photo1676517981%20(9).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517981%20(8).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517981%20(7).jpeg" alt=""></span>
+                            <p>Like by <b>Ayan Meirambek</b> and <b>2,323 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Magzhan Omarkhan</b> "let's make the dream happen" @ayanmn_ @sayizim. <span
+                                    class="harsh-tag"></span></p>
+                            <div class="comments text-muted">View all 98 comments</div>
+                        </div>
+                    </div>
+                    <!-- End OF FEED 2 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/photo1676509562%20(1).jpeg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Izim Saibosyn</h3>
+                                    <small>Atyrau, 2 HOURS AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="img/photo1676518319.jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/photo1676517681%20(6).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517681%20(5).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517681%20(4).jpeg" alt=""></span>
+                            <p>Like by <b>Ualikhan Slambekov</b> and <b>4,570 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Izim Saibosyn</b> Got there in a New York minute. <span class="harsh-tag">#NEWYORK</span></p>
+                            <div class="comments text-muted">View all 22 comments</div>
+                        </div>
+                    </div>
+                    <!-- End OF FEED 2 -->
+                    <!-- End OF FEED 3 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/photo1676517981%20(9).jpeg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Erkezhan Ermekbaeva</h3>
+                                    <small>Taraz, 40 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="img/photo1676517887%20(1).jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/photo1676517681%20(3).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517681%20(2).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517681%20(1).jpeg" alt=""></span>
+                            <p>Like by <b>Magzhan Omarkhan</b> and <b>1,490 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Erkezhan Ermekbaeva</b> gentleness is my love language. handle me with care, with softness, with genuine, & with genuine intent. <span
+                                    class="harsh-tag"></span></p>
+                            <div class="comments text-muted">View all 320 comments</div>
+                        </div>
+                    </div>
+                    <!-- End OF FEED 3 -->
+                    <!-- End OF FEED 4 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/photo1676531586%20(6).jpeg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Sabit Berkinbaev</h3>
+                                    <small>Aktau, 4 HOURS AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="img/photo1676517886.jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/photo1676517981%20(6).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517981%20(5).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517981%20(4).jpeg" alt=""></span>
+                            <p>Like by <b>Temirlan Markez</b> and <b>9,567 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Sabit Berkinbaev</b> Bari oz ornymen. <span
+                                    class="harsh-tag">#omir</span></p>
+                            <div class="comments text-muted">View all 12 comments</div>
+                        </div>
+                    </div>
+                    <!-- End OF FEED 4 -->
+                    <!-- End OF FEED 5 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/photo1676531586%20(7).jpeg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Daniyar Onlan</h3>
+                                    <small>Zhezkazgan, 19 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="img/photo1676517887.jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/photo1676517981%20(3).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517981%20(2).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517981%20(1).jpeg" alt=""></span>
+                            <p>Like by <b>Kuat Tulegenov</b> and <b>8,355 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Daniyar Onlan</b><span
+                                    class="harsh-tag"></span></p>
+                            <div class="comments text-muted">View all 253 comments</div>
+                        </div>
+                    </div>
+                    <!-- End OF FEED 5 -->
+                    <!-- End OF FEED 6 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/photo1676531586%20(4).jpeg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Ulzat Manas</h3>
+                                    <small>Almaty, 2 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="img/photo1676517886%20(1).jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/photo1676517681%20(4).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517681%20(9).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517981%20(3).jpeg" alt=""></span>
+                            <p>Like by <b>Daniyar Onlan</b> and <b>2,323 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Ulzat Manas</b> let's pretend we're in a fairy tale. <span class="harsh-tag">#twilight</span></p>
+                            <div class="comments text-muted">View all 177 comments</div>
+                        </div>
+                    </div>
+                    <!-- End OF FEED 6 -->
+                    <!-- End OF FEED 7 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/photo1676531586%20(5).jpeg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Ayan Meirambek</h3>
+                                    <small>Almaty, 22 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="img/photo1676518122.jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/photo1676517681%20(5).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517981%20(6).jpeg" alt=""></span>
+                            <span><img src="img/photo1676517681%20(1).jpeg" alt=""></span>
+                            <p>Like by <b>Madi Zholaman</b> and <b>6,178 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Ayan Meirambek</b> value every moment.
+                                <span class="harsh-tag"></span></p>
+                            <div class="comments text-muted">View all 98 comments</div>
+                        </div>
+                    </div>
+                    <!-- End OF FEED 7 -->
+                </div>
+            </div>
+            <!-- END OF MIDDLE -->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <!-- Search Bar -->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search Message" id="message-search">
+                    </div>
+                    <!-- Messages Category -->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <!-- Message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/photo1676531586%20(2).jpeg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Temirlan Markez</h5>
+                            <p class="text-muted">Just woke up bruh</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/photo1676517981%20(8).jpeg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Asiya Bagitzhankyzy</h5>
+                            <p class="text-bold">Received. Thanks!</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/photo1676531586%20(3).jpeg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Madi Zholaman</h5>
+                            <p class="text-bold">ok</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/photo1676531586%20(8).jpeg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Kuat Tulegenov</h5>
+                            <p class="text-bold">2 new messages</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/photo1676531586%20(4).jpeg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Ulzat Manas</h5>
+                            <p class="text-muted">lol u right</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/photo1676518466.jpeg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Sanzhar Bekbolat</h5>
+                            <p class="text-bold">Birthday Tomorrow!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Messages END -->
+
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="img/photo1676517681%20(8).jpeg" alt="">
+                            </div>
+                            <div>
+                                <h5>Emilia Clarke</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="img/photo1676517681%20(9).jpeg" alt="">
+                            </div>
+                            <div>
+                                <h5>The Weeknd</h5>
+                                <p class="text-muted">
+                                    2 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="img/photo1676517681%20(7).jpeg" alt="">
+                            </div>
+                            <div>
+                                <h5>Gigi Hadid</h5>
+                                <p class="text-muted">
+                                    19 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF RIGHT -->
+        </div>
+    </main>
+
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size, color, and background.</p>
+
+            <!-- Font SIZES -->
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!-- Primary Colors -->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <!-- Background Colors -->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    </body>
+
+    </html>
